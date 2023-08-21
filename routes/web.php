@@ -10,7 +10,7 @@ Route::get('/', function () {
 
 Route::get('/userRegistration', function () {
     return view('userRegistration');
-});
+})->name("user.create");
 
 Route::post('/userRegistration', function (Request $request) {
 

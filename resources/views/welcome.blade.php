@@ -30,8 +30,10 @@
 <body class="antialiased">
     <h1>Pusher Test</h1>
     <p>
-      Try publishing an event to channel <code>my-channel</code>
-      with event name <code>my-event</code>.
+      Try publishing an event to channel <code>popup-channel</code>
+      with event name <code>user-register</code>.
+      <p>Open new tab and submit form, then get notified</p>
+      <a href="{{route('user.create')}}" target="_blank" class="btn">Open New Tab</a>
     </p>
 </body>
 
